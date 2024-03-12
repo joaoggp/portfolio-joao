@@ -18,6 +18,20 @@ nav {
     text-align: right;
 }
 
+h1{
+    font-family: fira code;
+    font-size: 20px;
+    color: var(--font-text-nav);
+    display: inline-flex;
+    align-items: center;
+    transition: 0.8s;
+}
+
+h1:hover{
+    transition: 0.8s;
+    transform: scale(1.2);
+}
+
 a {
     display: inline-flex;
     align-items: center;
@@ -31,7 +45,7 @@ a {
 
 #down-button {
     display: inline-block;
-    background-color: var(--border-colorr-button);
+    background-color: var(--color-button);
     padding: 18px 20px;
     box-shadow: 5px 5px 0 var(--border-color);
     margin-right: 0;
