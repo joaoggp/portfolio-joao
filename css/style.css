@@ -31,7 +31,7 @@ a {
 
 #down-button {
     display: inline-block;
-    background-color: var(--color-button);
+    background-color: var(--border-colorr-button);
     padding: 18px 20px;
     box-shadow: 5px 5px 0 var(--border-color);
     margin-right: 0;
