@@ -1,0 +1,61 @@
+:root {
+    --color-button: #F25A70;
+    --font-text-nav: #fff;
+    --background-header: #7C5E99;
+    --border-color:#000;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--background-header);
+    border-bottom: 10px solid var(--border-color);
+    padding: 10px 20px;
+}
+
+nav {
+    text-align: right;
+}
+
+a {
+    display: inline-flex;
+    align-items: center;
+    color: var(--font-text-nav);
+    font-size: 20px;
+    font-family: "Fira code", sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+#down-button {
+    display: inline-block;
+    background-color: var(--color-button);
+    padding: 18px 20px;
+    box-shadow: 5px 5px 0 var(--border-color);
+    margin-right: 0;
+    transition: 0.8s;
+}
+
+#down-button:hover{
+    transition: 0.8s;
+    box-shadow: 0px 0px 0 var(--border-color);
+    transform: scale(1.02);
+}
+
+a::before{
+    content: '';
+    display: inline-block;
+    background-color: var(--color-button);
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    transition: 0.8s;
+}
+
+a:hover::before{
+    transform: scale(1.2);
+    transition: 0.8s;
+}
+
